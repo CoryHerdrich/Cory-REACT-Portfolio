@@ -11,6 +11,8 @@ module.exports = {
     extensions: ['.js', '.scss'],
 
     modules: ['node_modules'],
+
+    presets: ["react", "env", "stage-1"],
   },
 
   module: {
